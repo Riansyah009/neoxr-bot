@@ -98,8 +98,8 @@ module.exports = (m) => {
       if (!('error' in setting)) setting.error = []
       if (!('pluginDisable' in setting)) setting.pluginDisable = []
       if (!('groupmode' in setting)) setting.groupmode = true
-      if (!('sk_pack' in setting)) setting.sk_pack = 's '
-      if (!('sk_author' in setting)) setting.sk_author = '@s'
+      if (!('sk_pack' in setting)) setting.sk_pack = 'Seika bot✨'
+      if (!('sk_author' in setting)) setting.sk_author = 'Official Bot Whatsapp'
       if (!('self' in setting)) setting.self = false
       if (!('mimic' in setting)) setting.mimic = []
       if (!('noprefix' in setting)) setting.noprefix = false
@@ -122,8 +122,8 @@ module.exports = (m) => {
          error: [],
          pluginDisable: [],
          groupmode: false,
-         sk_pack: 's ',
-         sk_author: '@s',
+         sk_pack: 'Seika Bot✨',
+         sk_author: 'Official Bot Whatsapp',
          self: false,
          mimic: [],
          noprefix: false,
